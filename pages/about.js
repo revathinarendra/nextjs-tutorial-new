@@ -1,21 +1,18 @@
-import { useEffect } from "react";
+import { useEffect } from 'react'
 
 const About = () => {
-    useEffect(() => {
-        
-            //throw new Error('you really broke it')
-        }
-    )
     return (
         <>
-        <h1>Hello About Page routing</h1>
+            <h1>Yo its me</h1>
         </>
     )
 }
+
 export const getStaticProps = (context) => {
-    return {
+    return { 
         props: {},
-        realidate: 10
+        revalidate: 10 
     }
 }
-export default  About;
+
+export default About;
